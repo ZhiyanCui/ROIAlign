@@ -10,9 +10,9 @@ use the command in matlab:
 ```matlab
 mexcuda roialign.cu
 ```
-to compile the file and then you can use it.
+to compile the file.
 
-you can add these codes to vl_simplenn.m in matconvnet
+and then you should add these codes to vl_simplenn.m in matconvnet
 
 ```matlab
 case 'roialign'
